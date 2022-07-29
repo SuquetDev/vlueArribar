@@ -1,0 +1,140 @@
+.iframe__container {
+  max-width: calc(100vw - 40px);
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: #183e6b;
+}
+.iframe__container iframe {
+  background-color: #183e6b;
+}
+
+/* Google fonts, por si no lo coge */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+body {
+    background-color: #4770a9;
+
+}
+/* Que tenga un poco más de altura*/
+.row {
+    line-height: 2;
+}
+
+.mt15 {
+    margin-top: 4rem;
+}
+
+/* Cambiamos tipografía */
+.ui-widget {
+    font-family: 'Montserrat',Arial,sans-serif;
+}
+
+/* Quitar borde título mes */
+.ui-widget-header {
+    border: 0;
+    color: #183e6b;
+}
+
+/* Cambiar tipografía de los meses */
+.ui-datepicker .ui-datepicker-title {
+    font-family: 'Bison', 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+/* Hacer más grande el calendario */
+.ui-datepicker {
+    width: 100%;
+    padding: 2rem;
+}
+
+.ui-widget-content {
+   border: 1px solid #183e6b;
+}
+
+/* Cambiamos las flechitas del calendario */
+.ui-widget-header .ui-icon {
+    background-image: url('http://vlue.flowww.in/wp-content/uploads/2022/07/next-filled-arrow.png');
+}
+
+.ui-icon-circle-triangle-w {
+    background-image: url('http://vlue.flowww.in/wp-content/uploads/2022/07/back-filled-arrow.png') !important;
+}
+
+.ui-icon-circle-triangle-e {
+    background-position: inherit;
+}
+
+.ui-icon {
+    /* Para poner la flecha y que se quede en el sitio */
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: cover;
+    /* Tamaño iconos */
+    width: 20px;
+    height: 20px;
+}
+/* Cambiamos a mayúsculas los días  */
+.ui-datepicker table {
+    text-transform: uppercase;
+    text-align: center;
+    color: #183e6b;
+}
+/* Centramos los números del calendario */
+/* Quitamos los bordes de los números */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    text-align: center;
+    border: none;
+}
+/* Quitamos los bordes de los números */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: none;
+}
+
+/* Quitamos los bordes de los números */
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    color: #183e6b;
+}
+
+/* Cambiamos el color del background del activo */
+a.ui-state-active {
+    background-color: #f5d3a3 !important;
+}
+
+/* Tipografía y demás de los label del form */
+label {
+    font-family: 'Bison', 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* Bordes de los selectores del formulario */
+.form-control {
+    border: 1px solid #183e6b;
+    border-radius: 0;
+    font-family: 'Montserrat',Arial,sans-serif;
+    height: 6rem;
+}
+
+/* Botones de reserva */
+.reservarButton {
+    border-radius: 0;
+    border: 0;
+    font-size: 3rem;
+    background-color: #f5d3a3;
+    padding: 1rem;
+
+}
+
+/* Botones de reserva */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: #f5d3a3;
+    border: none;
+}
+
+
+
+
